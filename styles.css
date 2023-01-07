@@ -1,0 +1,162 @@
+
+body{
+    font-family: montserrat;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1 {
+    font-family: montserrat;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+    font-family: montserrat; font-weight:bolder;
+    font-size: 2.5rem;
+    
+    
+}
+h3{
+    font-family: montserrat-black; font-weight: 900;
+}
+
+p{
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15% 9%;
+}
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    font-family: montserrat-light;
+}
+/* download buttons */
+
+.download-button{
+    margin: 8% 3% 5% 0%;
+}
+
+/* Title image */
+
+.iphone-image{
+    position: relative;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+/* Features */
+
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+
+}
+.feature-box{
+    padding: 7%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+/* Testemonials */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press  */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 5% 15%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* Pricing */
+#pricing{
+    background-color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+.section-heading{
+    font-family: montserrat; font-weight: 900;
+    color: black;
+}
+.card-header{
+    font-family: montserrat; font-weight: 900;
+    color: black;
+}
+.text{
+    font-family: montserrat; font-weight: 900;
+    color: black; 
+}
+.Pricing-column{
+    padding: 2% 3%;
+}
+
+@media (max-width: 1028px) {
+    .title-image{
+        position:static;
+        transform:rotate(0deg)
+    }
+    #title{
+        text-align: center;
+    }
+}
+/* CTA  */
+#cta{
+    background-color: #ff4c68;
+    padding: 50px;
+} 
+.cta-heading{
+    font-family: montserrat-black; font-weight: 900;
+    font-size: 3.0rem;
+}
+
+/* footer */
+#footer{
+    padding: 7% 15%;
+    background-color: #fff;
+    color: black;
+}
+.social-icon{
+    margin: 20px 30px;
+}
